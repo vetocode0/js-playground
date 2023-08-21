@@ -1,0 +1,43 @@
+org: vetocode
+app: aws-node-http-api-project
+service: aws-node-http-api-project
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - httpApi:
+          path: /
+          method: get
+
+  getRoyce:
+    handler: royceHandler.getRoyce
+    events:
+      - httpApi:
+          path: /royce
+          method: get
+
+  getAnt:
+    handler: antHandler.getAnt
+    events:
+      - httpApi:
+          path: /ant
+          method: get
+  getBryon:
+    handler: bryonHandler.getBryon
+    events:
+      - httpApi:
+          path: /bryon
+          method: get
+  
+  getIke:
+    handler: ikeHandler.getIke
+    events:
+      - httpApi:
+          path: /ike
+          method: get

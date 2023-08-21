@@ -1,0 +1,54 @@
+{
+    "message": "My deployment finally works!!! Get some! I left the platform and header info visible for your curiosity.",
+    "antLink": "https://f8kz6cz2uc.execute-api.us-east-1.amazonaws.com/ant",
+    "bryonLink": "https://f8kz6cz2uc.execute-api.us-east-1.amazonaws.com/bryon",
+    "ikeLink": "https://f8kz6cz2uc.execute-api.us-east-1.amazonaws.com/ike",
+    "royceLink": "https://f8kz6cz2uc.execute-api.us-east-1.amazonaws.com/royce",
+    "input": {
+      "version": "2.0",
+      "routeKey": "GET /",
+      "rawPath": "/",
+      "rawQueryString": "",
+      "headers": {
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "en-US,en;q=0.9",
+        "cache-control": "max-age=0",
+        "content-length": "0",
+        "dnt": "1",
+        "host": "f8kz6cz2uc.execute-api.us-east-1.amazonaws.com",
+        "sec-ch-ua": "\"Chromium\";v=\"106\", \"Google Chrome\";v=\"106\", \"Not;A=Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-fetch-dest": "document",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-site": "none",
+        "sec-fetch-user": "?1",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36",
+        "x-amzn-trace-id": "Root=1-633e0c97-4bbdeeef5139ea343e92a5d6",
+        "x-forwarded-for": "75.4.196.155",
+        "x-forwarded-port": "443",
+        "x-forwarded-proto": "https"
+      },
+      "requestContext": {
+        "accountId": "782358079051",
+        "apiId": "f8kz6cz2uc",
+        "domainName": "f8kz6cz2uc.execute-api.us-east-1.amazonaws.com",
+        "domainPrefix": "f8kz6cz2uc",
+        "http": {
+          "method": "GET",
+          "path": "/",
+          "protocol": "HTTP/1.1",
+          "sourceIp": "75.4.196.155",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"
+        },
+        "requestId": "ZjbnrjNOIAMEM2w=",
+        "routeKey": "GET /",
+        "stage": "$default",
+        "time": "05/Oct/2022:23:00:39 +0000",
+        "timeEpoch": 1665010839387
+      },
+      "isBase64Encoded": false
+    }
+  }
